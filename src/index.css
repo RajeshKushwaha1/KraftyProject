@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #000 !important;
+    color:#fff !important;
+}
+.font-bold{
+    font-weight: 1000;
+    font-size: x-large;
+}
+
+.red-bookmark, .fas{
+    color:red;
+    background-color: red;
+}
+
+.NowPlaying{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.TrendingMovie{
+    width: 100%;
+    height: 50%;
+    overflow: hidden !important;
+    margin-top: 0px !important;
+}
+.card-img-trending{
+    width: 20px !important;
+    height: 10rem;
+}
+.trending-heading{
+    color: black;
+}
+.ulStyle{
+    list-style: none;
+    height: 500px;
+    overflow-y: hidden;
+}
+.MovieName{
+    width: 100%;
+   
+}
+.movies{
+    font-size: 10px;
+}
+.search_Movie{
+    float: right;
+}
+.card-playing{
+    width: 15rem;
+    height: 18rem;
+    margin: 15px;
+    /* padding: 5px; */
+    background-color:#000;
+    color:#fff !important;
+    display: inline-block;
+
+}
+
+.card-img-playing{
+    width: 15rem;
+    height: 13.4rem;
+   
+}
+.card-img-play{
+    margin-left: -15px;
+    width: 15rem;
+    height: 13.5rem;
+}
+.card-body-playing{
+    width: 15rem;
+    height: 4rem;
+    margin-left: -15px;
+    display:flex;
+}
+.card-title-playing{
+    width: 50%;
+    margin-left: -70px;
+   
+}
+.card-rating-playing{
+    float: right;
+   
+}
+
+#view-all:hover{
+ cursor: pointer;
+}
+
+.movie-details-section{
+    background-color: rgb(6,14,38);
+    color:#fff;
+}
+.Heart {
+    
+    
+    background-color: #2d3436;
+    
+  }

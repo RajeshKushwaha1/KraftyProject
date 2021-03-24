@@ -10,17 +10,18 @@ const App = () => {
     return (
         <BrowserRouter>
             <Switch>
+
                 <Route path="/" exact >
-                
                     <NowPlaying/>
                     <TreandingMovie/>
-               
                 </Route>
+
                 <Route path="/details/:id">
                 <MovieDetails/>
                 </Route>
+            
                 <Route path="/trending/all/" component={TrendingList}/>
-                
+ 
             </Switch>
         </BrowserRouter>
     );

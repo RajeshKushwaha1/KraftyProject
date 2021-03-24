@@ -1,102 +1,231 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: #000 !important;
-    color:#fff !important;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #000 !important;
+  color: #fff !important;
 }
-.font-bold{
-    font-weight: 1000;
-    font-size: x-large;
-}
-
-.red-bookmark, .fas{
-    color:red;
-    background-color: red;
+.font-bold {
+  font-weight: 1000;
+  font-size: x-large;
 }
 
-.NowPlaying{
-    width: 100%;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-.TrendingMovie{
-    width: 100%;
-    height: 50%;
-    overflow: hidden !important;
-    margin-top: 0px !important;
-}
-.card-img-trending{
-    width: 20px !important;
-    height: 10rem;
-}
-.trending-heading{
-    color: black;
-}
-.ulStyle{
-    list-style: none;
-    height: 500px;
-    overflow-y: hidden;
-}
-.MovieName{
-    width: 100%;
-   
-}
-.movies{
-    font-size: 10px;
-}
-.search_Movie{
-    float: right;
-}
-.card-playing{
-    width: 15rem;
-    height: 18rem;
-    margin: 15px;
-    /* padding: 5px; */
-    background-color:#000;
-    color:#fff !important;
-    display: inline-block;
-
+.red-bookmark,
+.fas {
+  color: red;
+  background-color: red;
 }
 
-.card-img-playing{
-    width: 15rem;
-    height: 13.4rem;
-   
+.NowPlaying {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
-.card-img-play{
-    margin-left: -15px;
-    width: 15rem;
-    height: 13.5rem;
+.TrendingMovie {
+  width: 100%;
+  height: 50%;
+  overflow: hidden !important;
+  margin-top: 0px !important;
 }
-.card-body-playing{
-    width: 15rem;
-    height: 4rem;
-    margin-left: -15px;
-    display:flex;
+.card-trending {
+  height: 12rem;
 }
-.card-title-playing{
-    width: 50%;
-    margin-left: -70px;
-   
+.card-img-trending {
+  width: 20px !important;
+  height: 11.7rem;
+  padding: 5px;
 }
-.card-rating-playing{
-    float: right;
-   
+.trending-heading {
+  color: black;
+}
+.ulStyle {
+  list-style: none;
+  height: 500px;
+  overflow-y: hidden;
+}
+.MovieName {
+  width: 100%;
+}
+.movies {
+  font-size: 10px;
+}
+.search_Movie {
+  float: right;
+}
+.card-playing {
+  width: 15rem;
+  height: 18rem;
+  margin: 15px;
+  /* padding: 5px; */
+  background-color: #000;
+  color: #fff !important;
+  display: inline-block;
 }
 
-#view-all:hover{
- cursor: pointer;
+.card-img-playing {
+  width: 15rem;
+  height: 13.4rem;
+}
+.card-img-play {
+  margin-left: -15px;
+  width: 15rem;
+  height: 13.5rem;
+}
+.card-body-playing {
+  width: 15rem;
+  height: 4rem;
+  margin-left: -15px;
+  display: flex;
+}
+.card-title-playing {
+  width: 50%;
+  margin-left: -70px;
+}
+.card-rating-playing {
+  margin-top: 20px;
+  height: 60%;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid red;
 }
 
-.movie-details-section{
-    background-color: rgb(6,14,38);
-    color:#fff;
+#view-all {
+  color: #ff2738;
 }
-.Heart {
+#view-all:hover {
+  cursor: pointer;
+  color: #ff2738;
+}
+
+.movie-details-section {
+  background-color: rgb(6, 14, 38);
+  color: #fff;
+}
+
+.View_All {
+  color: red !important;
+  font-size: 15px;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+.genre {
+  color: red !important;
+}
+.info {
+  color: red !important;
+}
+
+.cast {
+  background-color: red !important;
+  height: 1px;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+.starvoteplaying {
+  height: 30px;
+  width: 65px;
+
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 20px;
+  background-color: red !important;
+}
+
+.fa-star {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: white !important;
+  background-color: red !important;
+}
+
+.starvote {
+  width: 60px;
+
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: red !important;
+}
+.card-rating-trending {
+  width: 60px;
+  margin-top: 60px;
+  margin-left: -50px;
+  border-radius: 20px;
+  background-color: red !important;
+}
+.card-title-trending {
+  margin: 1px;
+  padding: 3px;
+  font-size: 15px;
+  
+}
+.far {
+  color: white !important;
+}
+.fas {
+  color: red !important;
+}
+.Stars {
+  background-color: red !important;
+  border-radius: 20px;
+  margin-top: -5px;
+  font-size: 25px !important;
+}
+.btn{
     
-    
-    background-color: #2d3436;
-    
-  }
+    margin: 20px;
+    padding: 1px;
+    width: 150px;
+    height: 30px;
+    border-radius: 35px;
+    margin-left: 25px;
+    background-color: red !important;
+}
+.playbutton{
+ 
+  margin-top: -10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: red!important;
+}
+.Bookmark{
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 86%;
+  border-radius: 20px;
+  overflow: hidden;
+  
+  background-color: unset !important;
+}
+.fa-bookmark{
+  margin-left: -6PX;
+  background-color: unset !important;
+}
+.backbutton{
+   position: absolute;
+   margin: 5px;
+   padding: 5px;
+   outline: none;
+   border-style: none;
+   color: white !important;
+  background-color: unset !important;
+}
+.fa-arrow-left{
+  
+  color: white !important;
+
+}
+.runtimes{
+  font-size: 15px;
+  color: #5D5D5D!important ;
+}
+.runtime{
+  font-size: 10px;
+  color: red !important ;
+}
